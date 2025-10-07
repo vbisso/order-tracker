@@ -26,12 +26,12 @@ function generateRandomStatusAndDate(): {
   status: OrderStatus;
   deliveryDate: string;
 } {
-  const statuses: OrderStatus[] = [
-    "Processing",
-    "Shipped",
-    "Out for delivery",
-    "Delivered",
-  ];
+  //   const statuses: OrderStatus[] = [
+  //     "Processing",
+  //     "Shipped",
+  //     "Out for delivery",
+  //     "Delivered",
+  //   ];
 
   const randomDays = Math.floor(Math.random() * 10) + 1;
   const deliveryDate = new Date();
